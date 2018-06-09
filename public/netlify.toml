@@ -1,11 +1,6 @@
 [Settings]
 ID = "vue-deploy-netlify"
 
-[build]
-  base    = "/"
-  publish = "dist/"
-  command = "npm build"
-
 [[redirects]]
   from = "/*"
   to = "/index.html"
