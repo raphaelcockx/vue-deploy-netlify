@@ -1,18 +1,18 @@
 <template>
   <div class="home">
-    <img src="../assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App on Netlify"/>
+    <div v-for="user in users" :key="user.id">
+      <p>{{ user.name }}</p>
+    </div>
   </div>
 </template>
 
 <script>
-// @ is an alias to /src
-import HelloWorld from '@/components/HelloWorld.vue'
-
 export default {
   name: 'home',
-  components: {
-    HelloWorld
+  computed: {
+    users () {
+      return this.$store.state.users
+    }
   }
 }
 </script>
