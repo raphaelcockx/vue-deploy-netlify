@@ -2,10 +2,6 @@
 ID = "vue-deploy-netlify"
 
 [[redirects]]
-  from = "/admin"
-  to = "/admin/index.html"
-
-[[redirects]]
   from = "/*"
   to = "/index.html"
   status = 200
