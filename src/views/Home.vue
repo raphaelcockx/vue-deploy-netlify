@@ -1,7 +1,7 @@
 <template>
   <div class="home">
-    <div v-for="user in users" :key="user.id">
-      <p>{{ user.name }}</p>
+    <div v-for="user in users.users" :key="user.lastname">
+      <p>{{ user.firstname }} {{ user.lastname }} ({{ user.position }})</p>
     </div>
   </div>
 </template>
