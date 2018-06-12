@@ -4,31 +4,17 @@ backend:
 media_folder: "public/images/uploads"
 public_folder: "/images/uploads"
 collections:
-  - label: "Pages"
-    name: "pages"
+  - label: "Data"
+    name: "data"
     files:
-      - label: "About Page"
-        name: "about"
-        file: "public/data/about.json"
+      - label: "Users"
+        name: "users"
+        file: "public/data/users.json"
         fields:
-          - {label: Title, name: title, widget: string}
-          - {label: Intro, name: intro, widget: markdown}
-          - label: Team
-            name: team
+          - label: Users
+            name: users
             widget: list
             fields:
-              - {label: Name, name: name, widget: string}
+              - {label: First name, name: firstname, widget: string}
+              - {label: Last name, name: lastname, widget: string}
               - {label: Position, name: position, widget: string}
-              - {label: Photo, name: photo, widget: image}
-      - label: "Locations Page"
-        name: "locations"
-        file: "public/data/locations.json"
-        fields:
-          - {label: Title, name: title, widget: string}
-          - {label: Intro, name: intro, widget: markdown}
-          - label: Locations
-            name: locations
-            widget: list
-            fields:
-              - {label: Name, name: name, widget: string}
-              - {label: Address, name: address, widget: string}
