@@ -1,1 +1,15 @@
-[]
+{
+  "title": "The title",
+  "intro": "A wonderful intro, yes sir!",
+  "team": [
+    {
+      "name": "Second Name",
+      "position": "Second Position"
+    },
+    {
+      "name": "First Name",
+      "position": "First Position",
+      "photo": "/images/uploads/druiven.jpg"
+    }
+  ]
+}
