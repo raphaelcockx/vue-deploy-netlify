@@ -1,1 +1,14 @@
-[]
+{
+  "users": [
+    {
+      "firstname": "Raphael",
+      "lastname": "Cockx",
+      "position": "Newsroom developer"
+    },
+    {
+      "firstname": "Andries",
+      "lastname": "Fluit",
+      "position": "Boss"
+    }
+  ]
+}
