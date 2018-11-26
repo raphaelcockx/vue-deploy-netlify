@@ -1,4 +1,4 @@
-// Just changing some stuff here
+// Just changing some stuff here, OK?
 
 module.exports = {
   chainWebpack: config => {
