@@ -1,3 +1,5 @@
+// Just changing some stuff here
+
 module.exports = {
   chainWebpack: config => {
     config.plugin('copy').tap(args => {
